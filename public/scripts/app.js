@@ -28,7 +28,7 @@ $(document).ready(function() {
 
     // append html to the view
     $todosList.append(todosHtml);
-  };
+  }
 
   // GET all todos on page load
   $.ajax({
